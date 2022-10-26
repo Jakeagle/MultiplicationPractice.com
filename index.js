@@ -19,10 +19,6 @@ function beginChallenge() {
 
 }
 
-function Multiplier() {
-   
-    
-}
 
 
 function checkAnswer() {
