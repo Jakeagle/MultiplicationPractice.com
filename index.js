@@ -1,6 +1,9 @@
 var max;
 var min;
 var valueOne;
+var max;
+var min;
+var valueOne;
 var valueTwo;
 var result;
 var playerAnswer;
@@ -19,15 +22,18 @@ function beginChallenge() {
 
 }
 
-
+function answerClick(){
+if(event.key === "Enter") {
+        checkAnswer();        
+    }
+}
 
 function checkAnswer() {
 
     playerAnswer = document.getElementById("answerValue").value;
     console.log(playerAnswer);
-
     if (playerAnswer == result) {
-        console.log("active");
+        document.getElementById("answerValue").value = " ";
         beginChallenge();
   }
   else if (playerAnswer != result) {
