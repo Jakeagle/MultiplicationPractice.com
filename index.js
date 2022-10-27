@@ -7,8 +7,8 @@ var playerAnswer;
 
 
 function beginChallenge() {
-    var max = 10;
-    var min = 1;
+    var max = parseInt(document.getElementById("Max-Input").value);
+    var min = parseInt(document.getElementById("Min-Input").value);
 
     valueOne = Math.floor(Math.random() * (max - min + 1)) + min;
     valueTwo = Math.floor(Math.random() * (max - min + 1)) + min;
