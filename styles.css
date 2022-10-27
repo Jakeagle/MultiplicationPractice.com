@@ -51,16 +51,7 @@ hr {
     text-align: center;
 }
 
-input-max {
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
 
-input-min {
-    height: 250px;
-    width: 250px;
-    text-align: center;
 }
 
 .answerInput {
@@ -72,9 +63,7 @@ input-min {
     margin-top: 20%;
 }
 
-.max-box {
-    width: 100%;
-}
+
 
 .valueText {
     text-align: center;
