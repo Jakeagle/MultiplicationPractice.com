@@ -51,13 +51,16 @@ hr {
     text-align: center;
 }
 
-.actionMenu{
-width: 100%;
-    height: 20%;
-    background-color: #EF8172;
+input-max {
+    height: 250px;
+    width: 250px;
     text-align: center;
-    position: absolute;
-    margin-top: 20%;
+}
+
+input-min {
+    height: 250px;
+    width: 250px;
+    text-align: center;
 }
 
 .answerInput {
@@ -66,10 +69,12 @@ width: 100%;
     background-color: #EF8172;
     text-align: center;
     position: relative;
-    margin-top: 2%;
+    margin-top: 20%;
 }
 
-
+.max-box {
+    width: 100%;
+}
 
 .valueText {
     text-align: center;
@@ -95,3 +100,5 @@ width: 100%;
 
 
 /**********valueTexts**********/
+
+
