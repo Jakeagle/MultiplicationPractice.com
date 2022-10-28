@@ -1,5 +1,3 @@
-
-
 var valueOne;
 var valueTwo;
 var result;
@@ -49,6 +47,7 @@ function checkAnswer() {
     else if (playerAnswer != result) {
         console.log("incorrect");
         alert("Try Again");
+        document.getElementById("answerValue").value = " ";
     }
 
 }
