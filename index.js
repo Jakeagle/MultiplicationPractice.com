@@ -55,8 +55,8 @@ function resetValues() {
     var valueOne = "0 ";
     var valueTwo = " 0";
     var result = "0 ";
-    document.getElementById("valOne").innerHTML = "0 ";
-    document.getElementById("valTwo").innerHTML = "0 ";
+    document.getElementById("valOne").innerHTML = null;
+    document.getElementById("valTwo").innerHTML = null;
     document.getElementById("Max-Input").value = null;
     document.getElementById("Min-Input").value = null;
 }
